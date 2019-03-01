@@ -1,0 +1,20 @@
+#control-panel {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5px; }
+
+#format-actions {
+  width: 200px;
+  margin-right: 400px; }
+  #format-actions button {
+    margin-right: 5px; }
+  #format-actions .synonyms span {
+    padding-right: 5px; }
+    #format-actions .synonyms span:hover {
+      color: aqua; }
+  #format-actions .active {
+    color: red; }
+
+/*# sourceMappingURL=ControlPanel.css.map */

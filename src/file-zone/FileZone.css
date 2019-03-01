@@ -1,0 +1,29 @@
+#file-zone {
+  background-color: #f1f0f0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px; }
+
+#file {
+  width: 600px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border: 1px solid #e4dede; }
+
+#file > span {
+  height: 1rem;
+  padding: 5px 5px; }
+  #file > span.selected {
+    background: #d4ff69; }
+#file .bold {
+  font-weight: bold; }
+#file .italic {
+  font-style: italic; }
+#file .underline {
+  text-decoration: underline; }
+
+/*# sourceMappingURL=FileZone.css.map */
